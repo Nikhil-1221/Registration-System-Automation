@@ -63,6 +63,7 @@ Registration-System/
 
 ## 📸 Test Evidence
 Screenshots are automatically saved in the screenshots folder after test execution.
+![alt text](<Screenshot 2026-01-31 020729.png>) ![alt text](<Screenshot 2026-01-31 020653.png>)
 
 ---
 
