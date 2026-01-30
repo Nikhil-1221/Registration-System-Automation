@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<div id="topError"></div>
+
+<form id="regForm">
+
+  <input type="text" id="firstName" placeholder="First Name">
+  <span class="error"></span>
+
+  <input type="text" id="lastName" placeholder="Last Name">
+  <span class="error"></span>
+
+  <input type="email" id="email" placeholder="Email">
+  <span class="error"></span>
+
+  <input type="text" id="phone" placeholder="Phone Number">
+  <span class="error"></span>
+
+  <select id="country">
+    <option value="">Select Country</option>
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+  </select>
+  <span class="error"></span>
+
+  <select id="state">
+    <option value="">Select State</option>
+  </select>
+  <span class="error"></span>
+
+  <select id="city">
+    <option value="">Select City</option>
+  </select>
+  <span class="error"></span>
+
+  <label>Gender:</label>
+  <label><input type="radio" name="gender"> Male</label>
+  <label><input type="radio" name="gender"> Female</label>
+
+  <input type="password" id="password" placeholder="Password">
+  <span class="error"></span>
+
+  <input type="password" id="confirmPassword" placeholder="Confirm Password">
+  <span class="error"></span>
+
+  <label>
+    <input type="checkbox" id="terms"> Accept Terms & Conditions
+  </label>
+
+  <button type="submit" id="submitBtn" disabled>Register</button>
+
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
